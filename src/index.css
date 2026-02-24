@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "sansita", sans-serif;
+
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+nav ul li a {
+  font-size: 18px;
+
+}
+
+h3 {
+  position: relative;
+  font-size: 35px;
+  display: inline-block;
+  color: #c45b7d;
+}
+
+h3::before {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 70%;
+  background: #e09db2;
+  bottom: -3px;
+  left: 0;
+
+}
+
+button {
+  border-radius: 15px;
+  padding: 10px;
+  background: #C45B7D;
+  color: white;
+  font-size: 18px;
+}
+
+.bg {
+  color: #C45B7D;
+}
